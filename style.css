@@ -9,7 +9,8 @@ margin:0 0;
     height:100%;
    }
  
-.boxa1{width: 100px;
+.boxa1{
+    width: 100px;
 height: 100%;
 left: 0;}
 .img1{position: absolute;
@@ -67,6 +68,35 @@ background-color: red}
     }
 .monthly span{margin-left: 20px}
 .monthly div{margin-bottom: 15px}
+
+.boxa3{flex: 1;}
+.messages{margin: 20px 20px;
+    font-size: 24px;
+    font-family: "ProximaNova";
+    color: rgb(53, 64, 82);
+    line-height: 1.2;  
+  }
+ .user{display: flex;
+   font-size: 14px;
+        font-family: "ProximaNova";
+        color: rgb(181, 181, 181);
+        line-height: 1.2;
+     position: absolute;
+     top:15px;
+     right: 30px; 
+    }
+.user div{margin-left: 15px}
+      
+.user span{font-size: 16px;
+    font-family: "ProximaNova";
+    color: rgb(35, 153, 241);
+    line-height: 1.2;
+   } 
+   .user div img{margin-left:40px}
+.header{border-bottom: darkgray solid 1px;
+    height: 80px;}
+
+  
   
 
   
