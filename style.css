@@ -1,0 +1,75 @@
+body{
+margin:0 0;
+}
+.boxa1,.boxa2,.boxa3{overflow: auto}
+.boxa{display: flex;}
+.boxa1{
+    background-color: rgb(29, 37, 49);
+    width: 100px;
+    height:100%;
+   }
+ 
+.boxa1{width: 100px;
+height: 100%;
+left: 0;}
+.img1{position: absolute;
+top:20px}
+.img2{position: absolute;
+bottom: 20px;
+left: 25px;}
+
+.boxa2{background-color: rgb(34, 44, 60);
+    width: 250px;
+height: 100%;
+}
+.boxa2-1,.boxa2-2{margin:35px 30px;}
+.boxa2-1{border-bottom:solid 1px rgb(42, 53, 71);}
+.boxa2 .menu{
+    font-size: 12px;
+    font-family: "ProximaNova";
+    color: rgb(91, 103, 121);
+    text-transform: uppercase;
+   position: relative;
+   font-variant: small-caps;
+   margin-bottom: 15px
+}
+
+.menu img{position: absolute;
+    ;left:175px}
+.boxa2 .botton{
+    font-size: 14px;
+    font-family: "ProximaNova";
+    color: rgb(183, 192, 205);
+    line-height: 2.571;  
+    position: relative;
+  }
+.boxa2 .botton img{margin-right: 15px}
+.boxa2 .botton span{width:32px;
+    height: 24px;
+    position: absolute
+    ;left:170px;
+    ;background-color:  rgb(25,145,235);
+    border-radius:15px;
+line-height: 24px;
+text-align: center;
+color: white}
+#caveat{width:24px;
+height: 24px;
+background-color: red}
+.monthly {
+    font-size: 14px;
+    font-family: "ProximaNova";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    position: absolute;
+    left: 130px;
+    bottom: 20px;
+    }
+.monthly span{margin-left: 20px}
+.monthly div{margin-bottom: 15px}
+  
+
+  
+
+  
+  
