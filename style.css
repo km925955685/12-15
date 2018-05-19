@@ -76,7 +76,8 @@ height: 100%;}
     font-size: 24px;
     font-family: "ProximaNova";
     color: rgb(53, 64, 82);
-    line-height: 1.2;  
+    line-height: 1.2; 
+    position: relative; 
   }
  .user{display: flex;
    font-size: 14px;
@@ -196,18 +197,87 @@ left: 100px;}
   
 
     .message{flex:1}
-.boxa3-3{display: flex;
+
+    .boxa3-3{
     height: 300px;
 position: relative;}
 
+.people-1{
+    font-size: 16px;
+    font-family: "ProximaNova";
+    color: rgb(88, 93, 104);
+    line-height: 1.2;   
+  }
+.people-1 img{position: absolute;
+top: 25px;
+left: 30px;}
+ .boxa3-3 span,.cell span{
+    font-size: 14px;
+    font-family: "ProximaNova";
+    color: rgb(127, 143, 164);
+    line-height: 2.571;}
+    .mode{position: absolute;
+    top:25px;
+left: 100px;}
 
+.text2{position: absolute;
+    top:60px;
+    left:100px;   
+        font-size: 13px;
+        font-family: "Myriad Pro";
+        color: rgb(88, 93, 104);
+        line-height: 1.357;
+      }
+    h25 w30
+.people-2{position: relative;}
+.people-2 img{position: absolute;
+top:130px;
+left: 30px;}
+.people-2 .mode{position: absolute;
+top:135px;
+left:100px}
+.people-2 .text2{position: absolute;
+top:160px;
+left: 100px
+}
+.boxa3-4{height: 370px;
+    border-bottom:rgb(35, 153, 241) solid 1px}
+.boxa3-4 .people-2 .picture-1{top:245px;
+left: 100px;}
+.boxa3-4 .people-2 .picture-2{top:245px;
+left: 270px;
+}
 
-
-  
-
-  
-  
-
+#time{position: absolute;
+top:465px;
+left:calc(50% + 375px);
+background-color: white;
+z-index: 100;
+width: 90px;
+text-align: center;
+    font-size: 14px;
+    font-family: "ProximaNova";
+    color: rgb(127, 143, 164);
+    line-height: 1.357; 
+  }
+#New{position: absolute;
+    top:835px;
+    left:calc(50% + 375px);
+    background-color: white;
+    z-index: 100;
+    width: 120px;
+    font-size: 14px;
+    font-family: "ProximaNova";
+    color: rgb(35, 153, 241);
+    line-height: 1.357;
+    text-align: center
+      }
+ .cell{position: relative;} 
+.cell img{position: absolute;
+    top: 25px;
+    left: 30px;}
+.cell .cellbox{top:115px;
+left: 30px;}
   
 
   
